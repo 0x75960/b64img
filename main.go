@@ -16,7 +16,7 @@ func init() {
 	flag.Usage = func() {
 		fmt.Fprintf(
 			os.Stderr,
-			"b64img:\n\tconvert image file to base64 emmbeded image for markdown/html\n\nUsage:\n\tb64img [options] /path/to/target/png\n\nOptions:\n\n",
+			"b64img:\n\tgenerate base64-embeded image tag for markdown/html documents\n\nUsage:\n\tb64img [options] /path/to/target/image\n\nOptions:\n\n",
 		)
 
 		flag.PrintDefaults()

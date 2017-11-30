@@ -1,7 +1,7 @@
 b64img
 =======
 
-convert image file to base64 emmbeded image for markdown(or html)
+commandline tool to generate base64-embeded image tag for markdown(html) documents
 
 usage
 ------
